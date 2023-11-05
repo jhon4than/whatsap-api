@@ -134,10 +134,15 @@ function sendChangeGameMessage(chatId) {
     }
 }
 
+// client.on('qr', qr => {
+//     qrcode.generate(qr, {small: true});
+// });
+
 client.on("ready", () => {
     console.log("Bot Online!");
     startSendingSignals(GROUP_ID); // Inicia o processo assim que o bot estiver pronto
 });
+
 
 // client.on('ready', () => {
 //     console.log('Client is ready!');
