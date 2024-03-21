@@ -3,12 +3,17 @@ const { Client, MessageMedia, LocalAuth } = require("whatsapp-web.js");
 const schedule = require("node-schedule");
 
 // const GROUP_ID = "120363195182514950@g.us"; Grupo Principal
-const GROUP_ID = "120363203786793883@g.us";
+const groupIds = [
+    "120363236495256824@g.us",
+    "120363242331328544@g.us",
+    "120363205945896855@g.us",
+];
+
 //const GROUP_ID = "120363195085351965@g.us";
 const SIGNAL_INTERVAL_MINUTES = 5;
-const SIGNAL_IMAGE_PATH = "./sinal.jpg"; // Certifique-se de que este caminho seja válido para todas as imagens dos jogos
 
 const games = [
+    { name: "🐉 Fortune Dragon 🐉", image: "./fortune_dragon.png" },
     { name: "🐯 Fortune Tiger 🐯", image: "./Fortune_tigger.png" },
     { name: "🐰 Fortune Rabbit 🐰", image: "./Fortune_rabbit.jpeg" },
     { name: "🐂 Fortune Ox 🐂", image: "./fortune_ox.jpg" },
@@ -30,11 +35,10 @@ function startSendingSignals(chatId) {
 
 // Função para enviar a mensagem de análise de padrões
 function sendAnalysisMessage(chatId) {
-    const signalImageInicial = MessageMedia.fromFilePath(SIGNAL_IMAGE_PATH);
     client
         .sendMessage(
             chatId,
-            "👑 ATENÇÃO... IDENTIFICANDO PADRÕES🔎❗\n📊 ANALISANDO ALGORITMO...\n🎰CADASTRE-SE AQUI: https://ourominas.bet?c=jhon4than"
+            "👑 ATENÇÃO... IDENTIFICANDO PADRÕES🔎❗\n📊 ANALISANDO ALGORITMO...\n"
         )
         .then(() => {
             setTimeout(
@@ -47,25 +51,25 @@ function sendAnalysisMessage(chatId) {
 function sendGameSignal(chatId) {
     const game = games[currentGameIndex]; // Get the current game from the array
     const gameImage = MessageMedia.fromFilePath(game.image);
-    const number_of_games1 = Math.floor(Math.random() * 11) + 5;
-    const number_of_games2 = Math.floor(Math.random() * (25 - 10 + 1)) + 10;
-    const number_of_games3 = Math.floor(Math.random() * (35 - 15 + 1)) + 15;
+    const number_of_games1 = Math.floor(Math.random() * 5) + 5;
+    const number_of_games2 = Math.floor(Math.random() * 6) + 2;
+    const number_of_games3 = Math.floor(Math.random() * 8) + 5;
     const message = `🍀 OPORTUNIDADE IDENTIFICADA
 
 ${game["name"]}
 🟢 Iniciar: Agora
 ⏰ Validade: 5 minutos
-📊 MESTRE DOS SLOTS
+📊 PRIMEFLIX SLOTS
 
 🔃 Alternar entre:
-🚀 ${number_of_games1} GIROS NO TURBO
-🎮 ${number_of_games2} GIROS NO NORMAL
 🚀 ${number_of_games3} GIROS NO TURBO
+🎮 ${number_of_games2} GIROS NO NORMAL
+🚀 10 GIROS NO TURBO AUTOMÁTICO
 
 🔃 Giros de 0,40 até 2.50 🔃
-⬇️DEPÓSITO MÍNIMO: R$30,00 ⬇️
+⬇️DEPÓSITO MÍNIMO: R$20,00 ⬇️
 
-🎰𝗣𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮: https://ourominas.bet?c=jhon4than
+🎰𝗣𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮: https://primeflix.bet/?c=b696652e-6c25-4d8d-8d63-7e8c35ed4e58
 ❎NÃO TENTE EM OUTRO SITE!❎`;
 
     client.sendMessage(chatId, gameImage, { caption: message }).then(() => {
@@ -103,12 +107,10 @@ function sendChangeGameMessage(chatId) {
 // Função para enviar a mensagem de finalização de sessão
 function sendEndSessionMessage(chatId) {
     const endSessionMessage =
-        "🚨 SESSÃO MESTRE DOS SLOTS FINALIZADA 🚨\n\n" +
-        "🌟 Contas novas têm PRIORIDADE, então sempre que conseguir, criem novas contas tocando ✨ e aumente suas chances de LUCRAR 💰 NO MESTRE DOS SLOTS 🎰\n\n" +
+        "🚨 SESSÃO FINALIZADA 🚨\n\n" +
+        "🌟 Contas novas têm PRIORIDADE, então sempre que conseguir, criem novas contas tocando ✨ e aumente suas chances de LUCRAR 💰🎰\n\n" +
         "Motivo:\n" +
         "Se você utiliza novas contas, você é como se fosse uma nova pessoa para a plataforma, dessa forma ela solta mais prêmios 🎁 no começo para passar uma boa “CREDIBILIDADE” 👍, então LUCRAMOS com mais facilidade 📈\n\n" +
-        "➡️ CLIQUE ABAIXO PRA CRIAR SUA NOVA CONTA! 🆕\n" +
-        "➡️ https://ourominas.bet?c=jhon4than\n" +
         "👀 FIQUE PRONTO PARA A PRÓXIMA OPERAÇÃO! ⏳";
 
     client.sendMessage(chatId, endSessionMessage);
@@ -140,18 +142,21 @@ function sendChangeGameMessage(chatId) {
 
 client.on("ready", () => {
     console.log("Bot Online!");
-    startSendingSignals(GROUP_ID); // Inicia o processo assim que o bot estiver pronto
+    groupIds.forEach(groupId => {
+        startSendingSignals(groupId);
+    });
 });
 
 
-// client.on('ready', () => {
-//     console.log('Client is ready!');
-//     client.getChats().then(chats => {
-//         const groups = chats.filter(chat => chat.isGroup);
-//         groups.forEach(group => {
-//             console.log(`Group Name: ${group.name}, Group ID: ${group.id._serialized}`);
-//         });
-//     });
-// });
+
+client.on('ready', () => {
+    console.log('Client is ready!');
+    client.getChats().then(chats => {
+        const groups = chats.filter(chat => chat.isGroup);
+        groups.forEach(group => {
+            console.log(`Group Name: ${group.name}, Group ID: ${group.id._serialized}`);
+        });
+    });
+});
 
 client.initialize();

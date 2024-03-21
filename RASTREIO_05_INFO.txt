@@ -1,0 +1,236 @@
+Consulta realizada em: 29/12/2023 às 11:10:57
+
+Código: NB979903106BR
+Status: Objeto em transferência - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Salvador / BA
+
+Código: NB991004790BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 29/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB980024731BR
+Status: Objeto em transferência - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Rio De Janeiro / RJ
+
+Código: NB981063100BR
+Status: Objeto em transferência - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Belem / PA
+
+Código: NB980025697BR
+Status: Objeto em transferência - por favor aguarde
+Data: 27/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Osasco / SP
+
+Código: NB980024144BR
+Status: Objeto em transferência - por favor aguarde
+Data: 28/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Linhares / ES
+
+Código: NB980028662BR
+Status: Objeto em transferência - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Jaboatao Dos Guararapes / PE
+
+Código: NB980024966BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB982243859BR
+Status: Objeto em transferência - por favor aguarde
+Data: 27/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Sao Paulo / SP
+
+Código: NB980025051BR
+Status: Objeto em transferência - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Aparecida De Goiania / GO
+
+Código: NB983970138BR
+Status: Objeto em transferência - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Belem / PA
+
+Código: NB992014232BR
+Status: Fiscalização aduaneira concluída - aguardando pagamento
+Data: 27/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB980026304BR
+Status: Objeto em transferência - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Contagem / MG
+
+Código: NB979908182BR
+Status: Informações eletrônicas enviadas para análise da autoridade aduaneira
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB992013740BR
+Status: Fiscalização aduaneira concluída - aguardando pagamento
+Data: 27/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB992013245BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB980024060BR
+Status: Objeto em transferência - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Jaboatao Dos Guararapes / PE
+
+Código: NB992013170BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB980028035BR
+Status: Objeto em transferência - por favor aguarde
+Data: 29/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Sao Paulo / SP
+
+Código: NB979904574BR
+Status: Objeto em transferência - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Cajamar / SP
+
+Código: NB982241141BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 28/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB980024949BR
+Status: Objeto em transferência - por favor aguarde
+Data: 29/12/2023
+Entregue: false
+Destino: Agência dos Correios - Jacobina / BA
+
+Código: NB980026763BR
+Status: Objeto em transferência - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Sao Luis / MA
+
+Código: NB979404162BR
+Status: Objeto em transferência - por favor aguarde
+Data: 29/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Passo Fundo / RS
+
+Código: NB991004891BR
+Status: Objeto saiu para entrega ao destinatário
+Data: 29/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Londrina / PR
+
+Código: NB980025167BR
+Status: Informações eletrônicas enviadas para análise da autoridade aduaneira
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB980024158BR
+Status: Objeto em transferência - por favor aguarde
+Data: 29/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Ananindeua / PA
+
+Código: NB991049941BR
+Status: Objeto em transferência - por favor aguarde
+Data: 29/12/2023
+Entregue: false
+Destino: Agência dos Correios - Sao Jose Dos Campos / SP
+
+Código: NB979465250BR
+Status: Objeto em transferência - por favor aguarde
+Data: 28/12/2023
+Entregue: false
+Destino: Agência dos Correios - Santa Leopoldina / ES
+
+Código: NB979074917BR
+Status: Fiscalização aduaneira concluída - aguardando pagamento
+Data: 27/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB980025493BR
+Status: Objeto em transferência - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Sao Jose / SC
+
+Código: NB992013625BR
+Status: Fiscalização aduaneira concluída - aguardando pagamento
+Data: 27/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB996508264BR
+Status: Objeto em transferência - por favor aguarde
+Data: 15/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Sao Jose / SC
+
+Código: NB979903503BR
+Status: Objeto em transferência - por favor aguarde
+Data: 28/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Vargem Grande Paulista / SP
+
+Código: NB980025122BR
+Status: Objeto em transferência - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Campo Grande / MS
+
+Código: NB982240115BR
+Status: Objeto em transferência - por favor aguarde
+Data: 29/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Sao Paulo / SP
+
+Código: NB980026406BR
+Status: Objeto em transferência - por favor aguarde
+Data: 28/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Manaus / AM
+
+Código: NB980028367BR
+Status: Objeto em transferência - por favor aguarde
+Data: 28/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Sao Paulo / SP
+
+Código: NB980024317BR
+Status: Objeto em transferência - por favor aguarde
+Data: 28/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Feira De Santana / BA
+

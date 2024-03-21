@@ -30,6 +30,7 @@
   "homepage": "https://wwebjs.dev/",
   "dependencies": {
     "@pedroslopez/moduleraid": "^5.0.2",
+    "axios": "^1.6.3",
     "body-parser": "^1.20.2",
     "brazuka-correios": "^0.0.4",
     "ejs": "^3.1.9",

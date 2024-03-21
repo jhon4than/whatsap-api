@@ -1,13 +1,64 @@
 const fs = require("fs");
 const request = require("request");
 const cheerio = require("cheerio");
+const async = require('async');
 const uri = "https://www.linkcorreios.com.br/";
 
-function gerarCodigoRastreio() {
-    const prefixo = "NB99";
-    const numeros = Math.random().toString().slice(2, 9);
-    return prefixo + numeros + "BR";
+let contador = 991004780; // Ponto inicial do contador
+const cacheFile = "cache_rastreio.json";
+let cache = {};
+
+// Carregar cache se existir
+if (fs.existsSync(cacheFile)) {
+    cache = JSON.parse(fs.readFileSync(cacheFile));
 }
+
+function gerarCodigoRastreio() {
+    const prefixo = "PB";
+    const sufixo = "BR";
+    let numero;
+
+    do {
+        // Gerar um número aleatório que começa com 9 e tem 8 dígitos no total
+        numero = '' + Math.floor(Math.random() * 1e9).toString().padStart(9, '0');
+    } while (cache.hasOwnProperty(prefixo + numero + sufixo))
+
+    return prefixo + numero + sufixo;
+}
+
+// function gerarCodigoRastreio() {
+//     const prefixo = "NB";
+//     const sufixo = "BR";
+//     let numero;
+
+//     do {
+//         contador++;
+//         numero = contador.toString().padStart(9, '0');
+//     } while (cache.hasOwnProperty(prefixo + numero + sufixo))
+
+//     return prefixo + numero + sufixo;
+// }
+// let contador = 980023570; // Ponto inicial do contador
+
+// function gerarCodigoRastreio() {
+//     const prefixo = "NB";
+//     const sufixo = "BR";
+
+//     // Incrementa o contador para gerar o próximo número
+//     contador++;
+
+//     // Garante que o número tenha sempre 9 dígitos (ajusta conforme a necessidade)
+//     const numero = contador.toString().padStart(9, '0');
+
+//     // Retorna o código completo
+//     return prefixo + numero + sufixo;
+// }
+
+// function gerarCodigoRastreio() {
+//     const prefixo = "NB9";
+//     const numeros = Math.random().toString().slice(2, 10);
+//     return prefixo + numeros + "BR";
+// }
 
 // function gerarCodigoRastreio() {
 //     const letras = "NB";
@@ -54,42 +105,38 @@ function filtrarPorData(rastreio, dataDesejada) {
 }
 
 function rastrearObjeto(codigo, tentativa = 1) {
+    // Verifica se o código já está no cache
+    if (cache.hasOwnProperty(codigo)) {
+        return Promise.resolve(cache[codigo]);
+    }
+
     return new Promise((resolve, reject) => {
-        console.log(
-            `Iniciando rastreamento para o código: ${codigo}, tentativa: ${tentativa}`
-        );
+        console.log(`Iniciando rastreamento para o código: ${codigo}, tentativa: ${tentativa}`);
         request(uri + codigo, function (error, response, body) {
             if (error || response.statusCode !== 200) {
                 if (tentativa < 3) {
                     // Número máximo de retentativas
-                    console.log(
-                        `Erro na requisição para ${codigo}. Tentando novamente em ${
-                            2 * tentativa
-                        } segundos.`
-                    );
+                    console.log(`Erro na requisição para ${codigo}. Tentando novamente em ${2 * tentativa} segundos.`);
                     setTimeout(() => {
                         resolve(rastrearObjeto(codigo, tentativa + 1));
                     }, 2000 * tentativa); // Backoff exponencial
                 } else {
-                    console.error(
-                        `Erro final na requisição para o código ${codigo}:`,
-                        error
-                    );
+                    console.error(`Erro final na requisição para o código ${codigo}:`, error);
                     reject("Falha na requisição após várias tentativas.");
                 }
             } else {
                 try {
                     const html = cheerio.load(body);
                     const rastreio = extrairDadosRastreio(html);
-                    console.log(
-                        `Rastreamento concluído para o código: ${codigo}`
-                    );
+                    console.log(`Rastreamento concluído para o código: ${codigo}`);
+
+                    // Salva no cache e escreve no arquivo
+                    cache[codigo] = rastreio;
+                    fs.writeFileSync(cacheFile, JSON.stringify(cache, null, 2));
+
                     resolve(rastreio);
                 } catch (err) {
-                    console.error(
-                        `Erro ao processar os dados para o código ${codigo}:`,
-                        err
-                    );
+                    console.error(`Erro ao processar os dados para o código ${codigo}:`, err);
                     reject("Erro ao processar os dados.");
                 }
             }
@@ -99,99 +146,121 @@ function rastrearObjeto(codigo, tentativa = 1) {
 
 function extrairDadosRastreio(html) {
     const ret = [];
+    let entregueNaDataEspecifica = false;
+
     html(".linha_status").each(function () {
         const status = html(this).find('li:contains("Status")').text();
         const data = html(this).find('li:contains("Data")').text();
+
+        if (status.includes("Objeto entregue ao destinatário")) {
+            entregueNaDataEspecifica = true;
+            return false; // Para a iteração sobre os elementos
+        }
 
         // Filtrar apenas os eventos com status "Objeto postado"
         if (status.includes("Objeto postado")) {
             ret.push({ status, data });
         }
     });
-    return ret;
+
+    return entregueNaDataEspecifica ? [] : ret;
 }
 
 async function processarLote(codigos) {
-    const promessas = codigos.map(codigo =>
-        rastrearObjeto(codigo)
-            .then(rastreio => {
-                if (rastreio && rastreio.length > 0) {
-                    return { codigo, rastreio: rastreio[0] }; // Retorna apenas o primeiro evento (Objeto postado)
-                }
-                return null;
-            })
-            .catch(error => {
-                console.error(`Erro ao rastrear o código ${codigo}:`, error);
-                return null;
-            })
-    );
+    const limiteConcorrencia = 100; // Ajuste conforme necessário
 
-    const resultados = await Promise.all(promessas);
-    console.log(`Lote processado.`);
-    return resultados.filter(resultado => resultado !== null);
+    return new Promise((resolve, reject) => {
+        async.parallelLimit(
+            codigos.map(codigo => {
+                return callback => {
+                    rastrearObjeto(codigo)
+                        .then(rastreio => {
+                            if (rastreio && rastreio.length > 0) {
+                                callback(null, { codigo, rastreio: rastreio[0] });
+                            } else {
+                                callback(null, null);
+                            }
+                        })
+                        .catch(error => {
+                            console.error(`Erro ao rastrear o código ${codigo}:`, error);
+                            callback(error, null);
+                        });
+                };
+            }),
+            limiteConcorrencia,
+            (err, resultados) => {
+                if (err) {
+                    console.error('Erro no processamento:', err);
+                    reject(err);
+                } else {
+                    console.log('Lote processado.');
+                    resolve(resultados.filter(resultado => resultado !== null));
+                }
+            }
+        );
+    });
 }
+
 
 async function main() {
     const startTime = new Date();
     const resultados = [];
     console.log("Iniciando o script de rastreamento...");
+    
+    // Gera uma lista de códigos de rastreio
     const todosCodigos = Array.from({ length: 10000000 }, gerarCodigoRastreio);
-    const tamanhoLote = 5;
+    const tamanhoLote = 10;
 
     for (let i = 0; i < todosCodigos.length; i += tamanhoLote) {
         const loteCodigos = todosCodigos.slice(i, i + tamanhoLote);
-        const resultadosLote = await processarLote(loteCodigos);
-        console.log(`Processando lote de códigos ${i + 1} até ${i + tamanhoLote}`);
 
-        if (Array.isArray(resultadosLote)) {
-            resultados.push(...resultadosLote);
-        } else {
-            console.error('Erro: resultadosLote não é um array.');
+        try {
+            // Processa cada lote de códigos
+            const resultadosLote = await processarLote(loteCodigos);
+            console.log(`Processando lote de códigos ${i + 1} até ${i + tamanhoLote}`);
+
+            if (Array.isArray(resultadosLote)) {
+                resultados.push(...resultadosLote);
+            } else {
+                console.error('Erro: resultadosLote não é um array.');
+            }
+        } catch (error) {
+            console.error('Erro ao processar lote:', error);
         }
 
-        // Salvar periodicamente
+        // Salva os resultados periodicamente
         if (i % (2 * tamanhoLote) === 0) {
-            // Verifica se o arquivo existe
-            if (fs.existsSync("resultados_rastreio.json")) {
-                // Lê os dados existentes e anexa os novos resultados
-                let dadosExistentes = JSON.parse(
-                    fs.readFileSync("resultados_rastreio.json")
-                );
-                dadosExistentes.push(...resultados);
-                fs.writeFileSync(
-                    "resultados_rastreio.json",
-                    JSON.stringify(dadosExistentes, null, 2)
-                );
-            } else {
-                // Cria um novo arquivo se ele não existir
-                fs.writeFileSync(
-                    "resultados_rastreio.json",
-                    JSON.stringify(resultados, null, 2)
-                );
+            const arquivoResultado = "resultados_rastreio.json";
+            let dadosExistentes = [];
+
+            // Verifica se o arquivo existe e lê os dados existentes
+            if (fs.existsSync(arquivoResultado)) {
+                dadosExistentes = JSON.parse(fs.readFileSync(arquivoResultado));
             }
-            // Limpa o array de resultados para evitar duplicação na próxima gravação
+
+            dadosExistentes.push(...resultados);
+            fs.writeFileSync(arquivoResultado, JSON.stringify(dadosExistentes, null, 2));
+
+            // Limpa o array de resultados para evitar duplicação
             resultados.length = 0;
         }
     }
 
-    // Salvar os resultados finais no fim do script
+    // Salva os resultados finais no fim do script
     if (resultados.length > 0) {
-        if (fs.existsSync("resultados_rastreio.json")) {
-            let dadosExistentes = JSON.parse(
-                fs.readFileSync("resultados_rastreio.json")
-            );
-            dadosExistentes.push(...resultados);
-            fs.writeFileSync(
-                "resultados_rastreio.json",
-                JSON.stringify(dadosExistentes, null, 2)
-            );
-        } else {
-            fs.writeFileSync(
-                "resultados_rastreio.json",
-                JSON.stringify(resultados, null, 2)
-            );
+        const arquivoResultadoFinal = "resultados_rastreio.json";
+        let dadosExistentes = [];
+
+        if (fs.existsSync(arquivoResultadoFinal)) {
+            dadosExistentes = JSON.parse(fs.readFileSync(arquivoResultadoFinal));
         }
+
+        dadosExistentes.push(...resultados);
+        fs.writeFileSync(arquivoResultadoFinal, JSON.stringify(dadosExistentes, null, 2));
     }
+
+    const endTime = new Date();
+    console.log(`Script concluído. Tempo total de execução: ${(endTime - startTime) / 1000} segundos.`);
 }
 
 main();

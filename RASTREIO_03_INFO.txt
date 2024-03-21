@@ -1,0 +1,278 @@
+Consulta realizada em: 27/12/2023 às 13:18:36
+
+Código: NB991004790BR
+Status: Informações eletrônicas enviadas para análise da autoridade aduaneira
+Data: 23/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB981115337BR
+Status: Informações eletrônicas enviadas para análise da autoridade aduaneira
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB978905865BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Jaboatao Dos Guararapes / PE
+
+Código: NB983352387BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 22/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB979899392BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Cascavel / PR
+
+Código: NB984064926BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Porto Alegre / RS
+
+Código: NB979704547BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Serra / ES
+
+Código: NB980306065BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Aparecida De Goiania / GO
+
+Código: NB981263049BR
+Status: Objeto postado
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB977247226BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Indaiatuba / SP
+
+Código: NB979938431BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Aparecida De Goiania / GO
+
+Código: NB980023271BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Piraquara / PR
+
+Código: NB974459031BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Jaboatao Dos Guararapes / PE
+
+Código: NB981625145BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Contagem / MG
+
+Código: NB971747422BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Belo Horizonte / MG
+
+Código: NB979979158BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Rio De Janeiro / RJ
+
+Código: NB982240702BR
+Status: Objeto postado
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB991693431BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 22/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB991004786BR
+Status: Área com distribuição sujeita a prazo diferenciado
+Data: 27/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Sao Paulo / SP
+
+Código: NB991004891BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 22/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Londrina / PR
+
+Código: NB978850177BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 18/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB991286058BR
+Status: Objeto saiu para entrega ao destinatário
+Data: 27/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Brasilia / DF
+
+Código: NB983685915BR
+Status: Fiscalização aduaneira concluída - aguardando pagamento
+Data: 27/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB995704951BR
+Status: Objeto recebido pelos Correios do Brasil
+Data: 27/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB965956112BR
+Status: Pagamento confirmado
+Data: 22/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB977948498BR
+Status: Objeto entregue ao destinatário
+Data: 26/12/2023
+Entregue: true
+Destino: Agência dos Correios - Peabiru / PR
+
+Código: NB991004790BR
+Status: Informações eletrônicas enviadas para análise da autoridade aduaneira
+Data: 23/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB983760015BR
+Status: Informações eletrônicas enviadas para análise da autoridade aduaneira
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB991004905BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 27/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Sao Bernardo Do Campo / SP
+
+Código: NB981483985BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Sao Paulo / SP
+
+Código: NB981017175BR
+Status: Informações eletrônicas enviadas para análise da autoridade aduaneira
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB979590663BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Rio De Janeiro / RJ
+
+Código: NB979376492BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 23/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Varzea Grande / MT
+
+Código: NB962421895BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Rio De Janeiro / RJ
+
+Código: NB965958192BR
+Status: Pagamento confirmado
+Data: 21/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB996998789BR
+Status: Fiscalização aduaneira concluída - aguardando pagamento
+Data: 26/12/2023
+Entregue: false
+Destino: Destino ainda não definido
+
+Código: NB995447745BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 22/12/2023
+Entregue: false
+Destino: Agência dos Correios - Guarabira / PB
+
+Código: NB998525415BR
+Status: Objeto saiu para entrega ao destinatário
+Data: 27/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Belo Horizonte / MG
+
+Código: NB993842368BR
+Status: Objeto saiu para entrega ao destinatário
+Data: 27/12/2023
+Entregue: false
+Destino: Agência dos Correios - Poco Fundo                     / MG
+
+Código: NB996566125BR
+Status: Objeto saiu para entrega ao destinatário
+Data: 27/12/2023
+Entregue: false
+Destino: Agência dos Correios - Novo Repartimento / PA
+
+Código: NB999206299BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 13/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Rio De Janeiro / RJ
+
+Código: NB999213635BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 15/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Contagem / MG
+
+Código: NB995362965BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 26/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Duque De Caxias / RJ
+
+Código: NB991371326BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 13/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Contagem / MG
+
+Código: NB995176795BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 19/12/2023
+Entregue: false
+Destino: Unidade de Distribuição - Serra / ES
+
+Código: NB994371078BR
+Status: Objeto em trânsito - por favor aguarde
+Data: 15/12/2023
+Entregue: false
+Destino: Unidade de Tratamento - Belo Horizonte / MG
+

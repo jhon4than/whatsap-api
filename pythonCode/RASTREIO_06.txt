@@ -1,0 +1,872 @@
+Number：NM069574202BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 09:56:00    Arrived at departure transport hub
+2024-01-03 00:19:02    Leave the warehouse
+2024-01-03 04:22:07    Outbound in sorting center
+2024-01-03 04:15:18    Accepted by carrier
+2024-01-03 00:16:23    Package finished
+2024-01-02 12:34:33    Order received successfully
+
+======================================
+
+Number：NM069574216BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:25:00    Leaving from departure country/region
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 05:11:54    Arrived at departure transport hub
+2024-01-03 02:27:29    Outbound in sorting center
+2024-01-03 02:05:30    Accepted by carrier
+2024-01-02 15:13:31    Leave the warehouse
+2024-01-02 15:08:04    Package finished
+2024-01-02 12:34:34    Order received successfully
+
+======================================
+
+Number：NM069574220BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 23:55:06    Leaving from departure country/region
+2024-01-03 14:15:00    Export clearance success
+2024-01-03 14:06:00    Export customs clearance started
+2024-01-03 02:20:52    Arrived at departure transport hub
+2024-01-02 17:21:51    Leave the warehouse
+2024-01-02 22:04:15    Outbound in sorting center
+2024-01-02 22:01:36    Accepted by carrier
+2024-01-02 17:11:20    Package finished
+2024-01-02 12:34:34    Order received successfully
+
+======================================
+
+Number：NM069574233BR  
+Parcel status：In customs 
+nation：Mainland China -> Brazil
+
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 09:59:13    Arrived at departure transport hub
+2024-01-02 21:12:25    Leave the warehouse
+2024-01-03 05:00:14    Outbound in sorting center
+2024-01-03 04:37:45    Accepted by carrier
+2024-01-02 21:08:12    Package finished
+2024-01-02 12:34:34    Order received successfully
+
+======================================
+
+Number：NM069574247BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 02:19:54    Arrived at departure transport hub
+2024-01-02 17:21:28    Leave the warehouse
+2024-01-02 22:14:53    Outbound in sorting center
+2024-01-02 22:05:41    Accepted by carrier
+2024-01-02 17:19:51    Package finished
+2024-01-02 12:34:34    Order received successfully
+
+======================================
+
+Number：NM069574255BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 09:54:56    Arrived at departure transport hub
+2024-01-02 21:23:18    Leave the warehouse
+2024-01-03 05:07:39    Outbound in sorting center
+2024-01-03 03:54:32    Accepted by carrier
+2024-01-02 21:21:59    Package finished
+2024-01-02 12:34:39    Order received successfully
+
+======================================
+
+Number：NM069574264BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574278BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 08:16:04    Received by warehouse
+2024-01-04 07:18:36    Arrived at warehouse
+2024-01-02 21:19:12    Outbound in sorting center
+2024-01-02 20:38:42    Inbound in sorting center
+2024-01-02 20:08:42    Accepted by carrier
+
+======================================
+
+Number：NM069574281BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574295BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574304BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574318BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574321BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574335BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:25:00    Leaving from departure country/region
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 04:37:58    Arrived at departure transport hub
+2024-01-03 01:57:00    Outbound in sorting center
+2024-01-03 01:26:58    Accepted by carrier
+2024-01-02 15:01:24    Leave the warehouse
+2024-01-02 14:53:28    Package finished
+2024-01-02 12:35:29    Order received successfully
+
+======================================
+
+Number：NM069574349BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574352BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:25:00    Leaving from departure country/region
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-02 22:29:35    Leave the warehouse
+2024-01-03 04:41:20    Arrived at departure transport hub
+2024-01-03 02:05:42    Outbound in sorting center
+2024-01-03 01:35:17    Inbound in sorting center
+2024-01-02 22:28:07    Package finished
+2024-01-02 14:27:43    Leave the warehouse
+2024-01-02 12:35:59    Order received successfully
+2024-01-02 12:35:57    Order received successfully
+
+======================================
+
+Number：NM069574370BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574383BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574397BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574406BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574410BR  
+Parcel status：In customs 
+nation：Mainland China -> Brazil
+
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 10:03:26    Arrived at departure transport hub
+2024-01-02 22:54:58    Leave the warehouse
+2024-01-03 06:33:47    Outbound in sorting center
+2024-01-03 01:34:16    Accepted by carrier
+2024-01-02 19:37:49    Package finished
+2024-01-02 12:36:18    Order received successfully
+
+======================================
+
+Number：NM069574423BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574437BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574445BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574454BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 03:20:11    Arrived at departure transport hub
+2024-01-03 21:23:10    Outbound in sorting center
+2024-01-03 21:02:53    Accepted by carrier
+2024-01-03 12:46:48    Leave the warehouse
+2024-01-02 12:36:27    Order received successfully
+
+======================================
+
+Number：NM069574468BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574471BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574485BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:25:00    Leaving from departure country/region
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 05:11:54    Arrived at departure transport hub
+2024-01-02 18:29:59    Leave the warehouse
+2024-01-03 02:26:47    Outbound in sorting center
+2024-01-03 02:09:55    Accepted by carrier
+2024-01-02 18:23:25    Package finished
+2024-01-02 12:36:43    Order received successfully
+
+======================================
+
+Number：NM069574499BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574508BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 06:34:27    Arrived at departure transport hub
+2024-01-03 04:12:06    Outbound in sorting center
+2024-01-02 19:00:01    Leave the warehouse
+2024-01-03 02:57:31    Accepted by carrier
+2024-01-02 18:57:59    Package finished
+2024-01-02 12:36:43    Order received successfully
+
+======================================
+
+Number：NM069574511BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:25:00    Leaving from departure country/region
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-02 22:20:41    Leave the warehouse
+2024-01-03 04:37:58    Arrived at departure transport hub
+2024-01-03 02:05:56    Outbound in sorting center
+2024-01-03 01:52:34    Accepted by carrier
+2024-01-02 14:29:21    Leave the warehouse
+2024-01-02 22:19:53    Package finished
+2024-01-02 12:36:45    Order received successfully
+2024-01-02 12:36:44    Order received successfully
+
+======================================
+
+Number：NM069574525BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:25:00    Leaving from departure country/region
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-02 22:52:35    Leave the warehouse
+2024-01-03 05:11:54    Arrived at departure transport hub
+2024-01-03 02:24:10    Outbound in sorting center
+2024-01-03 02:00:05    Accepted by carrier
+2024-01-02 22:51:02    Package finished
+2024-01-02 13:59:49    Leave the warehouse
+2024-01-02 12:36:51    Order received successfully
+2024-01-02 12:36:50    Order received successfully
+
+======================================
+
+Number：NM069574539BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 03:14:36    Arrived at departure transport hub
+2024-01-03 21:44:30    Outbound in sorting center
+2024-01-03 13:36:10    Leave the warehouse
+2024-01-03 21:03:05    Accepted by carrier
+2024-01-02 12:36:54    Order received successfully
+
+======================================
+
+Number：NM069574542BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574556BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574560BR  
+Parcel status：In customs 
+nation：Mainland China -> Brazil
+
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 03:23:26    Leave the warehouse
+2024-01-03 09:59:13    Arrived at departure transport hub
+2024-01-03 05:00:56    Outbound in sorting center
+2024-01-03 04:51:44    Accepted by carrier
+2024-01-03 03:22:32    Package finished
+2024-01-02 13:43:40    Leave the warehouse
+2024-01-02 13:40:14    Package finished
+2024-01-02 12:37:10    Order received successfully
+2024-01-02 12:37:09    Order received successfully
+
+======================================
+
+Number：NM069574573BR  
+Parcel status：In customs 
+nation：Mainland China -> Brazil
+
+2024-01-03 14:15:00    Export clearance success
+2024-01-03 14:06:00    Export customs clearance started
+2024-01-03 01:03:18    Leave the warehouse
+2024-01-03 05:32:05    Arrived at departure transport hub
+2024-01-03 03:07:31    Outbound in sorting center
+2024-01-03 02:49:03    Accepted by carrier
+2024-01-03 00:57:22    Package finished
+2024-01-02 13:47:51    Leave the warehouse
+2024-01-02 13:42:20    Package finished
+2024-01-02 12:32:52    Order received successfully
+2024-01-02 12:32:50    Order received successfully
+
+======================================
+
+Number：NM069574587BR  
+Parcel status：In customs 
+nation：Mainland China -> Brazil
+
+2024-01-03 14:15:00    Export clearance success
+2024-01-03 14:06:00    Export customs clearance started
+2024-01-03 01:00:44    Leave the warehouse
+2024-01-03 05:32:05    Arrived at departure transport hub
+2024-01-03 03:09:34    Outbound in sorting center
+2024-01-03 02:52:01    Accepted by carrier
+2024-01-03 00:58:16    Package finished
+2024-01-02 15:34:30    Leave the warehouse
+2024-01-02 14:52:06    Package finished
+2024-01-02 12:32:56    Order received successfully
+2024-01-02 12:32:51    Order received successfully
+
+======================================
+
+Number：NM069574595BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 09:24:54    Arrived at departure transport hub
+2024-01-04 04:32:40    Outbound in sorting center
+2024-01-02 19:16:36    Leave the warehouse
+2024-01-02 22:57:43    Inbound in sorting center
+2024-01-02 19:43:37    Accepted by carrier
+2024-01-02 19:14:30    Package finished
+2024-01-02 12:32:56    Order received successfully
+
+======================================
+
+Number：NM069574600BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 06:30:33    Arrived at departure transport hub
+2024-01-03 04:57:54    Outbound in sorting center
+2024-01-03 04:46:08    Accepted by carrier
+2024-01-02 17:41:24    Leave the warehouse
+2024-01-02 17:28:53    Package finished
+2024-01-02 12:33:00    Order received successfully
+
+======================================
+
+Number：NM069574613BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 06:29:29    Arrived at departure transport hub
+2024-01-02 19:31:09    Leave the warehouse
+2024-01-03 02:35:50    Outbound in sorting center
+2024-01-03 02:03:34    Accepted by carrier
+2024-01-02 19:25:11    Package finished
+2024-01-02 12:33:40    Order received successfully
+
+======================================
+
+Number：NM069574627BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574635BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574644BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 09:10:05    Arrived at departure transport hub
+2024-01-04 05:49:40    Outbound in sorting center
+2024-01-04 04:34:55    Inbound in sorting center
+2024-01-03 13:14:55    Leave the warehouse
+2024-01-02 12:33:49    Order received successfully
+
+======================================
+
+Number：NM069574658BR  
+Parcel status：In customs 
+nation：Mainland China -> Brazil
+
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 02:30:25    Leave the warehouse
+2024-01-03 09:46:53    Arrived at departure transport hub
+2024-01-03 05:34:15    Outbound in sorting center
+2024-01-03 04:58:41    Inbound in sorting center
+2024-01-03 02:28:22    Package finished
+2024-01-02 14:57:20    Leave the warehouse
+2024-01-02 14:51:56    Package finished
+2024-01-02 12:34:07    Order received successfully
+2024-01-02 12:34:05    Order received successfully
+
+======================================
+
+Number：NM069574661BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 09:31:54    Arrived at departure transport hub
+2024-01-03 22:48:48    Outbound in sorting center
+2024-01-02 21:06:21    Inbound in sorting center
+2024-01-02 15:41:33    Accepted by carrier
+
+======================================
+
+Number：NM069574675BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574689BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574692BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574701BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 09:33:19    Arrived at departure transport hub
+2024-01-04 04:01:34    Outbound in sorting center
+2024-01-04 00:04:07    Inbound in sorting center
+2024-01-03 20:15:07    Accepted by carrier
+
+======================================
+
+Number：NM069574715BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574729BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 09:31:54    Arrived at departure transport hub
+2024-01-03 22:37:28    Outbound in sorting center
+2024-01-02 21:08:26    Inbound in sorting center
+2024-01-02 15:41:33    Accepted by carrier
+
+======================================
+
+Number：NM069574732BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:25:00    Leaving from departure country/region
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 04:16:02    Arrived at departure transport hub
+2024-01-02 19:39:05    Leave the warehouse
+2024-01-03 01:14:27    Outbound in sorting center
+2024-01-02 22:49:43    Accepted by carrier
+2024-01-02 19:37:29    Package finished
+2024-01-02 12:34:34    Order received successfully
+
+======================================
+
+Number：NM069574746BR  
+Parcel status：In customs 
+nation：Mainland China -> Brazil
+
+2024-01-03 19:28:20    Export clearance success
+2024-01-03 18:49:04    Export customs clearance started
+2024-01-03 02:32:59    Leave the warehouse
+2024-01-03 10:03:26    Arrived at departure transport hub
+2024-01-03 05:35:45    Outbound in sorting center
+2024-01-03 05:16:04    Accepted by carrier
+2024-01-03 02:28:44    Package finished
+2024-01-02 14:03:04    Leave the warehouse
+2024-01-02 13:47:20    Package finished
+2024-01-02 12:34:49    Order received successfully
+2024-01-02 12:34:48    Order received successfully
+
+======================================
+
+Number：NM069574750BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574763BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574777BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 07:20:00    Arrived at departure transport hub
+2024-01-03 22:12:09    Outbound in sorting center
+2024-01-02 19:11:31    Leave the warehouse
+2024-01-02 22:32:33    Inbound in sorting center
+2024-01-02 19:42:44    Accepted by carrier
+2024-01-02 19:09:32    Package finished
+2024-01-02 12:35:08    Order received successfully
+
+======================================
+
+Number：NM069574785BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574794BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 07:12:31    Arrived at departure transport hub
+2024-01-03 03:25:04    Outbound in sorting center
+2024-01-02 19:29:46    Inbound in sorting center
+2024-01-02 12:55:30    Accepted by carrier
+
+======================================
+
+Number：NM069574803BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 11:01:49    Arrived at departure transport hub
+2024-01-03 04:03:46    Outbound in sorting center
+2024-01-03 02:58:56    Inbound in sorting center
+
+======================================
+
+Number：NM069574817BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574825BR  
+Parcel status：Warehouse processing
+nation：Mainland China -> Brazil
+
+2024-01-03 15:54:50    Leave the warehouse
+2024-01-03 22:00:39    Arrived at departure transport hub
+2024-01-03 18:33:16    Outbound in sorting center
+2024-01-03 18:27:45    Inbound in sorting center
+2024-01-02 12:35:44    Order received successfully
+
+======================================
+
+Number：NM069574834BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574848BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574851BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574865BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574879BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 04:01:12    Outbound in sorting center
+2024-01-02 18:26:31    Leave the warehouse
+2024-01-02 22:46:52    Inbound in sorting center
+2024-01-02 19:33:13    Accepted by carrier
+2024-01-02 18:14:10    Package finished
+2024-01-02 12:35:51    Order received successfully
+
+======================================
+
+Number：NM069574882BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574896BR  
+Parcel status：Warehouse processing
+nation：Mainland China -> Brazil
+
+2024-01-02 22:00:00    Leave the warehouse
+2024-01-03 02:35:29    Arrived at departure transport hub
+2024-01-03 01:01:50    Outbound in sorting center
+2024-01-03 00:54:09    Accepted by carrier
+2024-01-02 21:57:33    Package finished
+2024-01-02 12:35:53    Order received successfully
+
+======================================
+
+Number：NM069574905BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 10:39:48    Arrived at departure transport hub
+2024-01-03 06:21:47    Outbound in sorting center
+2024-01-03 05:35:25    Inbound in sorting center
+2024-01-02 20:28:27    Accepted by carrier
+
+======================================
+
+Number：NM069574919BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:28:27    Outbound in sorting center
+2024-01-02 18:14:34    Inbound in sorting center
+2024-01-02 13:01:50    Accepted by carrier
+
+======================================
+
+Number：NM069574922BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574936BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 07:13:58    Arrived at departure transport hub
+2024-01-04 03:01:49    Outbound in sorting center
+2024-01-03 10:28:47    Inbound in sorting center
+2024-01-02 20:28:27    Accepted by carrier
+
+======================================
+
+Number：NM069574940BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574953BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-04 05:11:20    Arrived at departure transport hub
+2024-01-03 14:03:21    Outbound in sorting center
+2024-01-02 16:31:56    Inbound in sorting center
+2024-01-02 14:19:50    Accepted by carrier
+
+======================================
+
+Number：NM069574967BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 06:29:29    Arrived at departure transport hub
+2024-01-02 19:31:39    Leave the warehouse
+2024-01-03 03:08:52    Outbound in sorting center
+2024-01-03 02:25:32    Accepted by carrier
+2024-01-02 19:27:27    Package finished
+2024-01-02 12:36:12    Order received successfully
+
+======================================
+
+Number：NM069574975BR  
+Parcel status：Delivering
+nation：Mainland China -> Brazil
+
+2024-01-03 02:19:54    Arrived at departure transport hub
+2024-01-02 16:33:23    Leave the warehouse
+2024-01-02 21:58:15    Outbound in sorting center
+2024-01-02 21:41:52    Accepted by carrier
+2024-01-02 16:30:23    Package finished
+2024-01-02 12:36:14    Order received successfully
+
+======================================
+
+Number：NM069574984BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+
+======================================
+
+Number：NM069574998BR  
+Parcel status：Awaiting seller dispatch
+nation：Mainland China -> Brazil
+
+
+======================================
+Powered by https://global.cainiao.com

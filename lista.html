@@ -1,21 +1,84 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Lista de Perguntas e Respostas</title>
-</head>
-<body>
-    <h1>Lista de Perguntas e Respostas</h1>
-    <ul>
-        <% for (let i = 0; i < perguntasERespostas.length; i++) { %>
-            <li>
-                Pergunta: <%= perguntasERespostas[i].pergunta %><br>
-                Resposta: <%= perguntasERespostas[i].resposta %><br>
-                <form action="/excluir" method="post">
-                    <input type="hidden" name="perguntaParaExcluir" value="<%= perguntasERespostas[i].pergunta %>">
-                    <input type="submit" value="Excluir">
-                </form>
-            </li>
-        <% } %>
-    </ul>
-</body>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="renderer" content="webkit"/>
+        <meta
+            name="viewport"
+            content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover"/>
+        <meta http-equiv="x-dns-prefetch-control" content="on" />
+                <meta name="keywords" content="Cainiao,Aliexpress,Alibaba,cainiao global tracking,aliexpress global tracking,alibaba global tracking,Cainiao delivery,Delivery Cainiao,Cainiao tracking,Tracking Cainiao,Track my parcel cainiao,Cainiao france delivery,Where is my cainiao shipment"/>
+                <meta name="description" content="Cainiao Global Express Tracking"/>
+                <meta name="format-detection" content="telephone=no"/>
+                <meta property="og:site_name" content="Cainiao Global Express Tracking"/>
+                <meta property="og:title" content="Cainiao Global Express Tracking" />
+                <meta property="og:image" content="https://img.alicdn.com/tfs/TB1CZ0ARpXXXXX7XXXXXXXXXXXX-32-32.png"/>
+                <meta property="og:description" content="Cainiao Global Express Tracking"/>
+        <title>Global Express Tracking</title>
+        <link rel="preconnect" href="https://g.alicdn.com/" crossorigin="crossorigin"/>
+        <link rel="dns-prefetch" href="https://g.alicdn.com/"/>
+        <link rel="dns-prefetch" href="https://img.alicdn.com/"/>
+        <link rel="icon" type="image/png" href="https://img.alicdn.com/tfs/TB1CZ0ARpXXXXX7XXXXXXXXXXXX-32-32.png">
+        <link rel="stylesheet" href="https://g.alicdn.com/cn-export/global-track/0.0.46/css/index.css">
+    <script>
+        window.cngotDetailMark = "cngotDetail";
+     </script>
+    </head>
+
+  <body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=210318bb17038660664276220e04fc&asid=AQAAAADS7o5lRxZaZgAAAACQw7OUh7aHew==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+<script src="//g.alicdn.com/evil-genius/P0/index.js"></script>
+      <div id="root">
+          <div
+              style="display: flex;align-items: center;justify-content: center;width: 100vw;height: 90vh;font-size: 13px;color: #999;">
+              Loading...
+          </div>
+          <div id="loading"></div>
+      </div>
+         <!--前端语言包-->
+         <script src="https://cn.alicdn.com/upload/pack/1343/4/lang.js"></script>
+        <!-- 一些基础库 -->
+        <script
+            crossorigin="crossorigin"
+            src="https://g.alicdn.com/??code/lib/babel-polyfill/7.12.1/polyfill.min.js,code/lib/react/17.0.2/umd/react.production.min.js,code/lib/react-dom/17.0.2/umd/react-dom.production.min.js,code/lib/prop-types/15.8.1/prop-types.min.js"></script>
+        <!--多语言文案-->
+        <script src="//lang.alicdn.com/mcms/global-track/0.0.10/global-track.json"></script>
+    <script>
+      window.locale = "en";
+    </script>
+    <script>
+      var doc = window.document;
+      if ("ontouchend" in doc) {
+        var docEl = doc.documentElement;
+
+        function setFontSize() {
+          docEl.style.fontSize = (100 / 375) * docEl.clientWidth + "px";
+        }
+        setFontSize();
+        window.addEventListener("resize", setFontSize);
+      }
+    </script>
+
+
+
+    <link rel="stylesheet" href="https://g.alicdn.com/cn-export/global-quick-score/0.0.10/css/app.css">
+    <script src="https://g.alicdn.com/cn-export/global-quick-score/0.0.10/js/app.js" async></script>
+    <script src="https://g.alicdn.com/cn-export/global-track/0.0.46/js/index.js" async></script>
+        <script>
+      (function () {
+        var s = document.createElement('script');
+        s.src = 'https://o.alicdn.com/puckinn/cookie-consent-sdk/umd/index.min.js';
+        s.setAttribute('data-tenant-uuid', 'a2239a26-c68d-4718-815d-9675583690bc');
+        s.setAttribute('data-domain-uuid', '3fd20118-2120-3002-b216-3222d28e035d');
+        s.setAttribute('data-backend-url', 'https://api.puckinn.com');
+        s.setAttribute('data-stat-url', 'https://stat.puckinn.com');
+        s.defer = true;
+        var parentNode = document.head || document.body;
+        parentNode.appendChild(s);
+        s.addEventListener('load', function() { window.puckinn.init(); });
+      })()
+    </script>
+      </body>
 </html>
