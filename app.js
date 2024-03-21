@@ -4,7 +4,6 @@ const schedule = require("node-schedule");
 
 // const GROUP_ID = "120363195182514950@g.us"; Grupo Principal
 const groupIds = [
-    "120363236495256824@g.us",
     "120363242331328544@g.us",
     "120363205945896855@g.us",
 ];
@@ -19,6 +18,12 @@ const games = [
     { name: "🐂 Fortune Ox 🐂", image: "./fortune_ox.jpg" },
     { name: "🐭 Fortune Mouse 🐭", image: "./Fortune_mouse.jpg" },
 ];
+
+const groupLinks = {
+    "120363242331328544@g.us": "https://primeflix.bet/?c=b696652e-6c25-4d8d-8d63-7e8c35ed4e58",
+    "120363205945896855@g.us": "https://greendasorte.com.br/register?code=XCF296T00P",
+};
+
 
 let currentGameIndex = 0;
 let signalCount = 0;
@@ -49,11 +54,13 @@ function sendAnalysisMessage(chatId) {
 }
 
 function sendGameSignal(chatId) {
-    const game = games[currentGameIndex]; // Get the current game from the array
+    const game = games[currentGameIndex];
     const gameImage = MessageMedia.fromFilePath(game.image);
     const number_of_games1 = Math.floor(Math.random() * 5) + 5;
     const number_of_games2 = Math.floor(Math.random() * 6) + 2;
     const number_of_games3 = Math.floor(Math.random() * 8) + 5;
+
+    const link = groupLinks[chatId]; // Use o link correspondente ao ID do grupo, ou um link padrão se não houver correspondência
     const message = `🍀 OPORTUNIDADE IDENTIFICADA
 
 ${game["name"]}
@@ -69,7 +76,7 @@ ${game["name"]}
 🔃 Giros de 0,40 até 2.50 🔃
 ⬇️DEPÓSITO MÍNIMO: R$20,00 ⬇️
 
-🎰𝗣𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮: https://primeflix.bet/?c=b696652e-6c25-4d8d-8d63-7e8c35ed4e58
+🎰𝗣𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮: ${link}
 ❎NÃO TENTE EM OUTRO SITE!❎`;
 
     client.sendMessage(chatId, gameImage, { caption: message }).then(() => {
@@ -90,33 +97,9 @@ ${game["name"]}
     });
 }
 
+
 // Função para enviar a mensagem de mudança de jogo
-function sendChangeGameMessage(chatId) {
-    const changeGameMessage =
-        "🔄 Atenção à mudança do jogo! \n" +
-        "Encontramos outro jogo que está com uma assertividade melhor!! \n" +
-        "🎯 A qualquer momento iremos mandar os sinais! 🔔";
-    client.sendMessage(chatId, changeGameMessage).then(() => {
-        setTimeout(
-            () => startSendingSignals(chatId),
-            1000 * 60 * SIGNAL_INTERVAL_MINUTES
-        );
-    });
-}
-
-// Função para enviar a mensagem de finalização de sessão
-function sendEndSessionMessage(chatId) {
-    const endSessionMessage =
-        "🚨 SESSÃO FINALIZADA 🚨\n\n" +
-        "🌟 Contas novas têm PRIORIDADE, então sempre que conseguir, criem novas contas tocando ✨ e aumente suas chances de LUCRAR 💰🎰\n\n" +
-        "Motivo:\n" +
-        "Se você utiliza novas contas, você é como se fosse uma nova pessoa para a plataforma, dessa forma ela solta mais prêmios 🎁 no começo para passar uma boa “CREDIBILIDADE” 👍, então LUCRAMOS com mais facilidade 📈\n\n" +
-        "👀 FIQUE PRONTO PARA A PRÓXIMA OPERAÇÃO! ⏳";
-
-    client.sendMessage(chatId, endSessionMessage);
-}
-
-// Modificação na função sendChangeGameMessage
+// Função para enviar a mensagem de mudança de jogo
 function sendChangeGameMessage(chatId) {
     if (currentGameIndex === 0 && signalCount === 0) {
         // Todos os jogos foram percorridos, enviar mensagem de finalização e pausar por 20 minutos
@@ -136,9 +119,23 @@ function sendChangeGameMessage(chatId) {
     }
 }
 
-// client.on('qr', qr => {
-//     qrcode.generate(qr, {small: true});
-// });
+
+// Função para enviar a mensagem de finalização de sessão
+function sendEndSessionMessage(chatId) {
+    const endSessionMessage =
+        "🚨 SESSÃO FINALIZADA 🚨\n\n" +
+        "🌟 Contas novas têm PRIORIDADE, então sempre que conseguir, criem novas contas tocando ✨ e aumente suas chances de LUCRAR 💰🎰\n\n" +
+        "Motivo:\n" +
+        "Se você utiliza novas contas, você é como se fosse uma nova pessoa para a plataforma, dessa forma ela solta mais prêmios 🎁 no começo para passar uma boa “CREDIBILIDADE” 👍, então LUCRAMOS com mais facilidade 📈\n\n" +
+        "👀 FIQUE PRONTO PARA A PRÓXIMA OPERAÇÃO! ⏳";
+
+    client.sendMessage(chatId, endSessionMessage);
+}
+
+
+client.on('qr', qr => {
+    qrcode.generate(qr, {small: true});
+});
 
 client.on("ready", () => {
     console.log("Bot Online!");
