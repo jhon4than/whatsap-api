@@ -6,6 +6,7 @@ const schedule = require("node-schedule");
 const groupIds = [
     "120363242331328544@g.us",
     "120363205945896855@g.us",
+    "120363219756067105@g.us",
 ];
 
 //const GROUP_ID = "120363195085351965@g.us";
@@ -22,6 +23,7 @@ const games = [
 const groupLinks = {
     "120363242331328544@g.us": "https://primeflix.bet/?c=b696652e-6c25-4d8d-8d63-7e8c35ed4e58",
     "120363205945896855@g.us": "https://greendasorte.com.br/register?code=XCF296T00P",
+    "120363219756067105@g.us": "https://seulink",
 };
 
 
