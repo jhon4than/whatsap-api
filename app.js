@@ -66,7 +66,6 @@ function sendGameSignal(chatId) {
 ${game["name"]}
 🟢 Iniciar: Agora
 ⏰ Validade: 5 minutos
-📊 PRIMEFLIX SLOTS
 
 🔃 Alternar entre:
 🚀 ${number_of_games3} GIROS NO TURBO
