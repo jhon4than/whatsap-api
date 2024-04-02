@@ -4,7 +4,6 @@ const schedule = require("node-schedule");
 
 // const GROUP_ID = "120363195182514950@g.us"; Grupo Principal
 const groupIds = [
-    "120363242331328544@g.us",
     "120363205945896855@g.us",
     "120363219756067105@g.us",
 ];
@@ -21,7 +20,6 @@ const games = [
 ];
 
 const groupLinks = {
-    "120363242331328544@g.us": "https://primeflix.bet/?c=b696652e-6c25-4d8d-8d63-7e8c35ed4e58",
     "120363205945896855@g.us": "https://greendasorte.com.br/register?code=XCF296T00P",
     "120363219756067105@g.us": "https://seulink",
 };
@@ -82,7 +80,7 @@ ${game["name"]}
 
     client.sendMessage(chatId, gameImage, { caption: message }).then(() => {
         signalCount++;
-        if (signalCount < 5) {
+        if (signalCount < 2) {
             setTimeout(
                 () => sendAnalysisMessage(chatId),
                 1000 * 60 * SIGNAL_INTERVAL_MINUTES
