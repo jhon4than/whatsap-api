@@ -4,8 +4,7 @@ const schedule = require("node-schedule");
 
 // const GROUP_ID = "120363195182514950@g.us"; Grupo Principal
 const groupIds = [
-    "120363205945896855@g.us",
-    "120363219756067105@g.us",
+    "120363205945896855@g.us"
 ];
 
 //const GROUP_ID = "120363195085351965@g.us";
@@ -20,8 +19,7 @@ const games = [
 ];
 
 const groupLinks = {
-    "120363205945896855@g.us": "https://greendasorte.com.br/register?code=XCF296T00P",
-    "120363219756067105@g.us": "https://seulink",
+    "120363205945896855@g.us": "https://greendasorte.com.br/register?code=XCF296T00P"
 };
 
 
